@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5d030;
+}
+.menu-links > ul,
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Main Styling*/
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 0.25%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+header > span {
+  color: black;
+  font-size: 2em;
+  font-size: bolder;
+  margin: 5px;
+  text-shadow: -1px -1px darkred, -2px -2px #e5d030, -3px -3px #e5d030,
+    -4px -4px #e5d030;
+  font-family: "Arial";
+}
+.top-content header .navbar {
+  display: inline-flex;
+  list-style: none;
+}
+
+.navbar a,
+header a > i {
+  display: block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Arial";
+}
+.menu-links ul li a,
+.top-content header ul li a {
+  text-decoration: none;
+}
+
+main.top-content {
+  background: url("../images/pexels-valeria-boltneva-11213787.jpg");
+  background-color: #e5d030;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  height: 60rem;
+}
+form {
+  padding: 0 2% 0;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 30%;
+  background: #f1f1f1;
+  border-radius: 2px;
+  font-family: "Arial";
+}
+
+form.example button {
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  font-family: "Arial";
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+.social-media {
+  padding-top: 1%;
+  font-size: 2.25em;
+  color: whitesmoke;
+  text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black,
+    5px 5px darkred;
+}
+
+.social-media > span,
+.social-media span > i {
+  padding: 1%;
+}
+/* Main Styling */
+
+main.hero h1 {
+  font-size: 7.95em;
+  line-height: 1.5;
+  letter-spacing: 20px;
+  padding: 5% 10% 0% 3%;
+  text-align: left;
+  color: #fcf807;
+  text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black,
+    5px 6px darkred, 6px 7px darkred, 7px 8px darkred, 8.5px 9.5px whitesmoke,
+    9.5px 10.5px whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /*  Haettenschweiler, */
+}
+
+.hero em {
+  color: darkred;
+}
+
+/* About Us Area */
+
+.about-us {
+  background: url("../images/pexels-chris-f-1283219.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rem;
+  color: #fcf807;
+  padding: 1% 20%;
+  margin: auto;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Arial";
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.about > h1 {
+  padding-top: 1%;
+  letter-spacing: 0.25em;
+  font-size: 2.55em;
+  color: whitesmoke;
+  text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black,
+    5px 5px darkred;
+  font-family: Impact;
+}
+
+.about > p {
+  color: whitesmoke;
+  text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black,
+    5px 5px darkred;
+}
+.about > span > a {
+  text-decoration: none;
+  color: #fcf807;
+  padding: 1%;
+  margin: 3px;
+}
+/* Menu Styling */
+
+.menu-wrapper {
+  background: url("../images/pexels-angelo-greñas-10648394.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rem;
+}
+
+.one{
+  padding: 1em;
+  font-family: 'Arial';
+  color: #fcf807;
+}
+.one > span{
+  text-decoration: underline;
+  text-decoration-color: #e8ce74;
+}
+
+.one h1{
+  padding-left: 1%;
+ font-style: italic;
+
+}
+
+.menu-links > ul {
+  font-size: 1.75em;
+  font-family: 'Arial';
+  font-weight: thin;
+  margin: 1%;
+  color: whitesmoke;
+  padding: 1.50%;
+}
+
+.menu-links ul li a {
+  display: inline-block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+}
+/* Booking Styling */
+
+.booking-wrapper {
+  background: url("../images/pexels-rachel-claire-5865249.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 15px outset #e5d030;
+  width: 100%;
+  height: 85%;
+  padding-top: 2em;
+}
+
+.booking-wrapper > section {
+  background-color: #f2f7a569;
+  text-align: center;
+  width: 50%;
+  height: 40%;
+  margin: 1% auto;
+  padding-top: 7.25em;
+  padding-bottom: 1em;
+  border-radius: 4px;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.a > a i {
+  font-size: 4em;
+  color: darkred;
+  padding-bottom: 5%;
+}
+
+.a span {
+  font-size: 2em;
+  font-weight: bold;
+  color: darkred;
+  font-family: "Arial";
+  text-shadow: 1px 1px black, 2px 2px darkred;
+  letter-spacing: 5px;
+}
+
+.a a > i {
+  width: auto;
+}
+
+.a > h1 {
+  font-size: 5em;
+  text-shadow: 1px 2px whitesmoke, 2px 3px darkred;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-shadow: 1px 2px whitesmoke, 2px 3px darkred;
+  font-family: "Arial";
+  padding: 2%;
+}
+
+.left {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.right {
+  font-size: 1.85em;
+}
+
+/* Review Styling */
+
+.review-wrapper {
+  background: linear-gradient(#e8ce74, #e5d030, #fcf807);
+  height: auto;
+}
+
+.review-wrapper {
+  text-align: center;
+  font-family: "Arial";
+  padding: 3%;
+}
+
+.review-wrapper .one > h1 {
+  font-size: 6em;
+}
+
+.review-content > p {
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.img > img {
+  text-align: center;
+  width: 15%;
+  height: 2%;
+  padding: 1%;
+  border-radius: 360%;
+}
+
+.one > span,
+.review-content >span {
+  text-shadow: 1px 1px black, 2px 2px darkred;
+  letter-spacing: 8px;
+  padding: 18% 1% 8% 1%;
+  font-size: 3em;
+  font-weight: bold;
+  color: darkred;
+  font-family: Impact;
+}
